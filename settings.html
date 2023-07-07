@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/noraml.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/framwork.css">
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>settings</title>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="container">
+        <form action="">
+         <input type="search" name="" id="" placeholder="type a keyword"> 
+        </form>
+        <div class="info">
+          <i class="i-1 fa-regular fa-bell"></i>
+          <i class="i-2 fa-solid fa-bell fa-shake" style="color: #ccc;"></i>
+         <img src="./imgs/avatar.png" alt="">  
+        </div>
+     </div>
+    </div>
+    <div class="nav">
+      <h1>shamshoon</h1>
+      <ul>
+        <li><a href="./index.html" ><i class="fa-solid fa-chart-line fa-fw"></i><span>dashboard</span> </a></li>
+        <li><a href="./settings.html" class="active" ><i class="fa-solid fa-sliders fa-fw"></i><span>settings</span> </a></li>
+        <li><a href="./profile.html"><i class="fa-solid fa-user fa-fw"></i><span>profile</span></a></li>
+        <li><a href="./projects.html"><i class="fa-solid fa-sheet-plastic fa-fw"></i><span>project</span></a></li>
+        <li><a href="./courses.html"><i class="fa-solid fa-graduation-cap fa-fw"></i><span>courses</span></a></li>
+        <li><a href="./friends.html"><i class="fa-solid fa-user-group fa-fw"></i><span>friends</span></a></li>
+        <li><a href="./file.html"><i class="fa-regular fa-file fa-fw"></i><span>files</span></a></li>
+        <li><a href="./plans.html"><i class="fa-solid fa-coins fa-fw"></i><span>plans</span></a></li>
+      </ul>
+    </div>
+    <div class="dashboard">
+      <div class="container">
+        <h1 class="main-title">
+          settings
+        </h1>
+        <div class="dash-holder">
+          <div class="site-widget back-w p-15 over-hid b-rad-7">
+            <h2 class="micro-title">site control</h2>
+            <span>Control The Website If There Is Maintenance</span>
+            <div class="switch d-flex">
+              <div>
+              <p>Website control</p>
+              <span>open/close Website and type the reason</span>
+              </div>
+              <label class="toggal-land">
+                <input type="checkbox" class="checkbox">
+                <div class="toggal"></div>
+              </label> 
+            </div>
+            <textarea placeholder="the message" ></textarea>
+          </div>
+          <div class="genearl-widget back-w p-15 over-hid b-rad-7">
+            <h2 class="micro-title">General Info</h2>
+            <span>General Information About Your Account</span>
+               <form action="">
+                <label for="name">first name</label>
+                <input type="text" name="" id="name" placeholder="first name">
+                <label for="last-name">last name</label>
+                <input type="text" name="" id="last-name" placeholder="last name" >
+                <label for="email">email</label>
+                <input type="email" name="" id="email" disabled placeholder="gamalalkelanys@gmail.com">
+               <span> <a href="">change</a></span>  
+               </form>
+            </div>
+            <div class="security-widget back-w p-15 over-hid b-rad-7">
+              <h2 class="micro-title">Security Info</h2>
+              <span>Security Information About Your Account</span>
+              <div class="part">
+                <div class="text-box">
+                 <p>password</p>
+                 <span>Last Change On 25/10/2021</span>
+                </div>
+                <a href="">change</a>
+              </div>
+              <div class="part">
+                <div class="text-box">
+                 <p>Two-Factor Authentication</p>
+                 <span>Enable/Disable The Feature</span>
+                </div>
+                <label class="toggal-land">
+                  <input type="checkbox" class="checkbox">
+                  <div class="toggal"></div>
+                </label> 
+              </div>
+              <div class="part">
+                <div class="text-box">
+                 <p>Devices</p>
+                 <span>Check The Login Devices List/span>
+                </div>
+                <a href="">devices</a>
+              </div>
+              </div>
+            <div class="social-widget back-w p-15 over-hid b-rad-7">
+              <h2 class="micro-title">Social Info</h2>
+              <span>Social Media Information</span>
+              <form>
+               <input type="text" placeholder="twitter username" >
+               <i class="fa-brands fa-twitter fa-fw twitter"></i>
+               <input type="text" placeholder="facebook username" >
+               <i class="fa-brands fa-facebook-f fa-fw facebook "></i>
+               <input type="text" placeholder="linkedin username" >
+               <i class="fa-brands fa-linkedin fa-fw linkedin"></i>
+               <input type="text" placeholder="youtube username" >
+               <i class="fa-brands fa-youtube fa-fw youtube"></i>
+              </form>
+            </div>
+            <div class="control-widget back-w p-15 over-hid b-rad-7 ">
+              <h2 class="micro-title">Widgets Control</h2>
+              <span>Show/Hide Widgets</span>
+              <form>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Quick Draft</label>
+                <input type="checkbox" checked id="number-2">
+                <label for="number-2">Yearly Targets</label>
+                <input type="checkbox" id="number-3">
+                <label for="number-3">Tickets Statistics</label>
+                <input type="checkbox"  id="number-4">
+                <label for="number-4">Latest News</label>
+                <input type="checkbox" checked id="number-5">
+                <label for="number-5">Latest Tasks</label>
+                <input type="checkbox" checked  id="number-">
+                <label for="number-">Top Search Items</label>
+              </form>
+            </div>
+            <div class="backup-widget back-w p-15 over-hid b-rad-7">
+              <h2 class="micro-title">Backup Manager</h2>
+              <span>Control Backup Time And Location</span>
+              <form action="" class="first">
+                <label for="daily">
+                  <input type="radio" name="date" id="daily">
+                  daily
+                </label>
+               
+                <label for="weekly">
+                  <input type="radio" name="date" id="weekly">
+                  weekly
+                </label>
+               
+                <label for="monthly">
+                  <input type="radio" name="date" id="monthly">
+                  monthly
+                </label>
+              </form>
+              <form action="" class="second">
+                <input type="radio" name="raido" id="first" checked>
+                <label for="first">
+                  <i class="fa-solid fa-server"></i>
+                  <p>gamal</p>
+                </label>
+                <input type="radio" name="raido" id="second">
+                <label for="second">
+                  <i class="fa-solid fa-server"></i>
+                  <p>abdo</p>
+                </label>
+                <input type="radio" name="raido" id="third">
+                <label for="third">
+                  <i class="fa-solid fa-server"></i>
+                  <p>sayed</p>
+                </label>
+              </form>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

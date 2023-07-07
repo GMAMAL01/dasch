@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/noraml.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/framwork.css">
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>dashboard</title>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="container">
+        <form action="">
+         <input type="search" name="" id="" placeholder="type a keyword"> 
+        </form>
+        <div class="info">
+          <i class="i-1 fa-regular fa-bell"></i>
+          <i class="i-2 fa-solid fa-bell fa-shake" style="color: #ccc;"></i>
+         <img src="./imgs/avatar.png" alt="">  
+        </div>
+     </div>
+    </div>
+    <div class="nav">
+      <h1>shamshoon</h1>
+      <ul>
+        <li><a href="./index.html" class="active" ><i class="fa-solid fa-chart-line fa-fw"></i><span>dashboard</span> </a></li>
+        <li><a href="./settings.html"><i class="fa-solid fa-sliders fa-fw"></i><span>settings</span> </a></li>
+        <li><a href="./profile.html"><i class="fa-solid fa-user fa-fw"></i><span>profile</span></a></li>
+        <li><a href="./projects.html"><i class="fa-solid fa-sheet-plastic fa-fw"></i><span>project</span></a></li>
+        <li><a href="./courses.html"><i class="fa-solid fa-graduation-cap fa-fw"></i><span>courses</span></a></li>
+        <li><a href="./friends.html"><i class="fa-solid fa-user-group fa-fw"></i><span>friends</span></a></li>
+        <li><a href="./file.html"><i class="fa-regular fa-file fa-fw"></i><span>files</span></a></li>
+        <li><a href="./plans.html"><i class="fa-solid fa-coins fa-fw"></i><span>plans</span></a></li>
+      </ul>
+    </div>
+    <div class="dashboard">
+      <div class="container">
+        <h1 class="main-title">
+          dashboard
+        </h1>
+        <div class="dash-holder">
+          <div class="p-info">
+            <div class="head-info d-flex f-bettween">
+             <div class="text-box">
+              <h2 class="micro-title" >welcome</h2>
+              <span>shamshoon</span>
+            </div>
+            <img src="./imgs/welcome.png" alt="-">
+            <img class="pin" src="./imgs/avatar.png" alt="-">
+            </div>
+            <div class="last-info d-flex t-c f-evenly">
+             <p>shamshoon <br> <span>front end developer</span></p>
+             <p>4 <br> <span>project</span></p>
+             <p>$12.000 <br><span>earned</span></p>
+            </div>
+            <div class="link-holder">
+              <a href="" class="dash-links" >profile</a>
+            </div>
+          </div>
+          <div class="draft back-w b-rad-7 over-hid p-15 d-flex">
+            <div class="text-box">
+            <h2 class="micro-title">quick draft</h2>
+            <span>Write A Draft For Your Ideas</span>
+            </div>
+            <textarea name="" id="" placeholder="title" class="text-1" ></textarea>
+            <textarea name="" id="" placeholder="your thought"></textarea>
+            <div class="link-holder">
+              <a href="" class="dash-links" >save</a>
+            </div>
+          </div>
+          <div class="targets back-w p-15 over-hid b-rad-7">
+            <div class="text-box">
+              <h2 class="micro-title">Yearly Targetst</h2>
+              <span>Targets Of The Year</span>
+              </div>
+              <div class="money d-flex ">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <div class="box">
+                  <h3>money</h3>
+                  <span>$20.000</span>
+                  <div class="chart">
+                    <span style="width:80%;"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="money d-flex money-2 ">
+                <i class="fa-solid fa-code fa-fw"></i>
+                <div class="box">
+                  <h3>Projects</h3>
+                  <span>24</span>
+                  <div class="chart">
+                    <span style="width:55%;"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="money d-flex money-3 ">
+                <i class="fa-solid fa-user-plus fa-fw"></i>
+                <div class="box">
+                  <h3>team</h3>
+                  <span>12</span>
+                  <div class="chart">
+                    <span style="width:75%;"></span>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="tickets back-w p-15 over-hid b-rad-7">
+            <h2 class="micro-title">Tickets Statistics</h2>
+            <span>Everything About Support Tickets</span>
+            <div class="holder d-flex">
+              <div class="box">
+                <i class="fa-solid fa-ticket fa-fw "></i>
+                <h3>2500</h3>
+                <p>total</p>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-spinner fa-fw"></i>
+                <h3>500</h3>
+                <p>pending</p>
+              </div>
+              <div class="box">
+                <i class="fa-regular fa-circle-check fa-fw"></i>
+                <h3>1900</h3>
+                <p>closed</p>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-eraser fa-fw"></i>
+                <h3>100</h3>
+                <p>deleted</p>
+              </div>
+            </div>
+          </div>
+          <div class="latest-news p-15 back-w b-rad-7">
+            <h2 class="micro-title">
+             latest news
+            </h2>
+            <div class="box">
+              <img src="./imgs/news-01.png" alt="-">
+              <div class="text-box">
+                <h3>Created SASS Section</h3>
+                <p>New SASS Examples & Tutorials</p>
+              </div>
+              <span>3 days ago</span>
+            </div>
+            <div class="box">
+              <img src="./imgs/news-02.png" alt="-">
+              <div class="text-box">
+                <h3>Changed The Design</h3>
+                <p>A Brand New Website Design</p>
+              </div>
+              <span>5 Days Ago</span>
+            </div>
+            <div class="box">
+              <img src="./imgs/news-03.png" alt="-">
+              <div class="text-box">
+                <h3>Team Increased</h3>
+                <p>3 Developers Joined The Team</p>
+              </div>
+              <span>7 Days Agoo</span>
+            </div>
+            <div class="box">
+              <img src="./imgs/news-04.png" alt="-">
+              <div class="text-box">
+                <h3>Added Payment Gateway</h3>
+                <p>Many New Payment Gateways Added</p>
+              </div>
+              <span>9 Days Ago</span>
+            </div>
+          </div>
+          <div class="latest-tasks p-15 b-rad-7 back-w">
+            <h2 class="micro-title">
+              Latest Tasks
+             </h2>
+            <div class="box">
+              <div class="text-box">
+                <h2>Record One New Video</h2>
+                <p>Record Python Create Exe Project</p>
+              </div>
+              <i class="fa-solid fa-trash-can fa-fw"></i>
+            </div>
+          <div class="box">
+            <div class="text-box">
+              <h2>Write Article</h2>
+              <p>Write Low Level vs High Level Languages</p>
+            </div>
+            <i class="fa-solid fa-trash-can fa-fw"></i>
+          </div>
+          <div class="box">
+            <div class="text-box">
+              <h2>Finish Project</h2>
+              <p>Academy Programming Project</p>
+            </div>
+            <i class="fa-solid fa-trash-can fa-fw"></i>
+          </div>
+          <div class="box">
+            <div class="text-box">
+              <del>Attend The Meeting</del>
+              <del>Attend The Project Business Analysis Meeting</del>
+            </div>
+            <i class="fa-solid fa-trash-can fa-fw"></i>
+          </div>
+          <div class="box">
+            <div class="text-box">
+              <h2>Finish Lesson</h2>
+              <p>Finish Teaching Flex Box</p>
+            </div>
+            <i class="fa-solid fa-trash-can fa-fw"></i>
+          </div>
+          </div>
+          <div class="top-search p-15 rad-7 back-w">
+            <h2 class="micro-title">
+              Top Search Items
+             </h2>
+             <div class="head">
+              <span>keyword</span>
+              <span>search count</span>
+             </div>
+             <div class="box">
+              <p>Programming</p>
+              <span>220</span>
+             </div>
+             <div class="box">
+              <p>javaScript</p>
+              <span>180</span>
+             </div>
+             <div class="box">
+              <p>php</p>
+              <span>160</span>
+             </div>
+             <div class="box">
+              <p>code</p>
+              <span>145</span>
+             </div>
+             <div class="box">
+              <p>design</p>
+              <span>110</span>
+             </div>
+             <div class="box">
+              <p>logic</p>
+              <span>95</span>
+             </div>
+          </div>
+          <div class="latest-upload p-15 back-w b-rad-7">
+            <h2 class="micro-title">
+             latest uploads
+            </h2>
+            <div class="box">
+              <img src="./imgs/pdf.svg" alt="-">
+              <div class="text-box">
+                <h3>my-file.pdf</h3>
+                <p>file</p>
+              </div>
+              <span>2.9mb</span>
+            </div>
+            <div class="box">
+              <img src="./imgs/avi.svg" alt="-">
+              <div class="text-box">
+                <h3>My-Video-File.avi</h3>
+                <p>Admin</p>
+              </div>
+              <span>5.1mb</span>
+            </div>
+            <div class="box">
+              <img src="./imgs/psd.svg" alt="-">
+              <div class="text-box">
+                <h3>My-Psd-File.pdf</h3>
+                <p>psd file</p>
+              </div>
+              <span>7.4mb</span>
+            </div>
+            <div class="box">
+              <img src="./imgs/zip.svg" alt="-">
+              <div class="text-box">
+                <h3>My-Zip-File.pdf</h3>
+                <p>User</p>
+              </div>
+              <span>1.1mb</span>
+            </div>
+            <div class="box">
+              <img src="./imgs/dll.svg" alt="-">
+              <div class="text-box">
+                <h3>My-DLL-File.pdf</h3>
+                <p>Admin</p>
+              </div>
+              <span>6.2mb</span>
+            </div>
+            <div class="box">
+              <img src="./imgs/eps.svg" alt="-">
+              <div class="text-box">
+                <h3>My-Eps-File.pdf</h3>
+                <p>Designer</p>
+              </div>
+              <span>9.0mb</span>
+            </div>
+          </div>
+          <div class="progress back-w p-15 b-rad-7">
+            <h2 class="micro-title">
+              last project progress
+            </h2>
+            <div class="holder">
+              <p>Got The Project</p>
+              <p>Started The Project</p>
+              <p>The Project About To Finish</p>
+              <p>Test The Project</p>
+              <p>Finish The Project & Get Money</p>
+            </div>
+            <img src="./imgs/project.png" alt="-">
+          </div>
+          <div class="reminders back-w p-15 b-rad-7">
+            <h2 class="micro-title">
+              reminders
+            </h2>
+            <p>Check My Tasks List <span>28/09/2022 - 12:00am</span> </p>
+            <p>Check My Projects <span>20/09/2022 - 12:00am</span> </p>
+            <p>call my clients <span>12/09/2022 - 12:00am</span> </p>
+            <p>Finish The Development Workshop <span>8/09/2022 - 12:00am</span> </p>
+          </div>
+          <div class="social back-w p-15 b-rad-7">
+            <h2 class="micro-title">
+              Latest Post
+            </h2>
+            <div class="avatar d-flex">
+              <img src="./imgs/avatar.png" alt="-">
+              <div class="info">
+                <p>shamshoon</p>
+                <span>About 2 Hours Ago </span>
+              </div>
+              </div>
+              <p>
+                The greatest glory in living lies not in never falling, but in rising every time we fall.
+                <span>-Nelson Mandela</span>
+              </p>
+              <div class="post">
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                  <span>1k</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-retweet"></i>
+                  <span>230</span>
+                </div>
+              </div>
+            </div>
+          <div class="media back-w p-15 b-rad-7 ">
+            <h2 class="micro-title">
+              Social Media Stats
+            </h2>
+            <div class="widge">
+              <div class="icon">
+                <i class="fa-solid fa-envelope fa-2x fa-fw"></i>
+              </div>
+              <span>contact me</span>
+              <div class="email">
+             <a href="mailto: gamalalkelanys@gmail.com">email</a>
+              </div>
+            </div>
+            <div class="widge">
+              <div class="icon">
+                <i class="fa-brands fa-facebook-f fa-2x fa-fw"></i>
+              </div>
+              <span>follow me</span>
+              <div class="email">
+             <a href="https://www.facebook.com/gamal.alkilaniking" target="_blank" >facebook</a>
+              </div>
+            </div>
+            <div class="widge">
+              <div class="icon">
+                <i class="fa-brands fa-instagram fa-2x fa-fw"></i>
+              </div>
+              <span>follow me</span>
+              <div class="email">
+             <a href="https://www.instagram.com/cymotrithy/" target="_blank" >Instagram</a>
+              </div>
+            </div>
+            <div class="widge">
+              <div class="icon">
+                <i class="fa-brands fa-youtube fa-2x fa-fw"></i>
+              </div>
+              <span>contact me</span>
+              <div class="email">
+             <a href="https://www.youtube.com/channel/UCoMwe_2KaaZq8AMOQpocRfA" target="_blank" >youtube</a>
+              </div>
+            </div>
+          </div> 
+          </div>
+          <div class="projects back-w p-15 rad-7 ">
+            <h2 class="micro-title">projects</h2>
+            <div class="holder">
+            <table>
+              <thead>
+                <tr>
+                  <td>name</td>
+                  <td>finish date</td>
+                  <td>client</td>
+                  <td>price</td>
+                  <td>team</td>
+                 <td> status</td>
+                </tr>
+              </thead>
+              <tbody>
+               
+              <tr>
+                <td> Ministry Wikipedia </td>
+                <td> 10 May 2022 </td>
+                <td> 	Ministry </td>
+                <td> $5300 </td>
+                <td> 
+                  <img src="./imgs/team-01.png" alt="-">
+                  <img src="./imgs/team-02.png" alt="-">
+                  <img src="./imgs/team-03.png" alt="-">
+                  <img src="./imgs/team-04.png" alt="-">
+                </td>
+                <td> <span>pending</span> </td>
+              </tr>
+              <tr>
+                <td> profile </td>
+                <td>	12 Oct 2021</td>
+                <td> 	shamshoon profile </td>
+                <td> $1300 </td>
+                <td> 
+                  <img src="./imgs/team-01.png" alt="-">
+                  <img src="./imgs/team-02.png" alt="-">
+                  <img src="./imgs/team-04.png" alt="-">
+                </td>
+                <td> <span>In Progress</span> </td>
+              </tr>
+              <tr>
+                <td> Bouba App </td>
+                <td> 05 Sep 2021 </td>
+                <td> 	Bouba </td>
+                <td> $800 </td>
+                <td> 
+                  <img src="./imgs/team-02.png" alt="-">
+                  <img src="./imgs/team-04.png" alt="-">
+                </td>
+                <td> <span>completed</span> </td>
+              </tr>
+              <tr>
+                <td> Sayed Website </td>
+                <td> 24 May 2021 </td>
+                <td> 		Sayed </td>
+                <td> $300 </td>
+                <td> 
+                  <img src="./imgs/team-01.png" alt="-">
+                  <img src="./imgs/team-03.png" alt="-">
+                </td>
+                <td> <span>Rejected</span> </td>
+              </tr>
+              <tr>
+                <td> Arena Application </td>
+                <td> 01 Mar 2021 </td>
+                <td> 	Arena Company </td>
+                <td> $5100 </td>
+                <td> 
+                  <img src="./imgs/team-01.png" alt="-">
+                  <img src="./imgs/team-02.png" alt="-">
+                  <img src="./imgs/team-03.png" alt="-">
+                  <img src="./imgs/team-04.png" alt="-">
+                </td>
+                <td> <span>completed</span> </td>
+              </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+</body>
+</html>
